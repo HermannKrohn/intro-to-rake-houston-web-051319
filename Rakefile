@@ -23,6 +23,6 @@ end
 
 namespace :db do 
   task :migrate => :environment do
-    Students.create_table
+    Student.create_table
   end
 end
